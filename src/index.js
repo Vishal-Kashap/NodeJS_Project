@@ -23,7 +23,7 @@ connection.connect((err) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello From Vishal!');
+  res.send('Hi From Vishal!');
 });
 
 app.listen(port, () => {
